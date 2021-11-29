@@ -3,7 +3,7 @@
 public class LazySingleObject {
 
    //create an object of SingleObject
-   private static LazySingleObject instance = new LazySingleObject();
+   private static LazySingleObject instance = null;
 
    //make the constructor private so that this class cannot be
    //instantiated
